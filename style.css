@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.botao {
+  background: lightgray;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 16px;
+  width: 100%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+}
+#header {
+  background: lightblue;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+  color: black;
+  padding: 5px 10px;
+}
+.logo-img {
+  width: 50px;
+}
+.menu {
+  display: flex;
+  margin-right: 40px;
+}
+.menu li a {
+  font-size: 1.1rem;
+  padding: 10px;
+}
+/* section  */
+#boletim {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.info-1 {
+  width: max-content;
+  padding: 40px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: lightblue;
+}
+.info-1 span {
+  display: inline-block;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.info-1 label,
+.info-1 input {
+  display: grid;
+}
+.info-1 label {
+  font-size: 1.3rem;
+}
+.info-1 input,
+.info-1 select {
+  padding: 10px;
+}
+.info-1 input:nth-child(-n + 3),
+.info-1 select:nth-child(-n + 3) {
+  margin-bottom: 10px;
+}
