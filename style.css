@@ -117,3 +117,11 @@
 #filosofia {
   display: none;
 }
+/* */
+.caixa-info {
+  display: none;
+  background: lightgray;
+}
+.text-info {
+  display: block;
+}

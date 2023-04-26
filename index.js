@@ -1,13 +1,17 @@
 const botao = document.querySelector(".botao");
 const info1 = document.querySelector(".info-1");
 const info2 = document.querySelector(".info-2");
-
+// --
+let nomeAluno;
+let nomeTurma;
+let nomeEscola;
+let anoLetivo;
+// --
 botao.addEventListener("click", function () {
-  // data from info1
-  const nomeAluno = document.querySelector("#nome-aluno").value;
-  const nomeEscola = document.querySelector("#nome-escola").value;
-  const nomeTurma = document.querySelector("#nome-turma").value;
-  const anoLetivo = document.querySelector("#ano-letivo").value;
+  nomeAluno = document.querySelector("#nome-aluno").value;
+  nomeEscola = document.querySelector("#nome-escola").value;
+  nomeTurma = document.querySelector("#nome-turma").value;
+  anoLetivo = document.querySelector("#ano-letivo").value;
   // --
   info1.style.display = "none";
   info2.style.display = "grid";
@@ -25,7 +29,6 @@ function materias() {
   const ingles = document.querySelector("#ingles");
   const filosofia = document.querySelector("#filosofia");
 }
-
 //
 const b1 = document.querySelector(".b1");
 b1.addEventListener("click", function () {
@@ -115,4 +118,13 @@ b10.addEventListener("click", function () {
   materias();
   const sociologiaNota = document.getElementById("sociologia-nota").value;
   const sociologiaFalta = document.getElementById("sociologia-falta").value;
+  sociologia.style.display = "none";
+  info2.style.display = "none";
+  const caixaInfo = document.querySelector(".caixa-info");
+  caixaInfo.style.display = "block";
+  let span1 = document.querySelector(".text-1");
+  let span2 = document.querySelector(".text-2");
+  let span3 = document.querySelector(".text-3");
+  let span4 = document.querySelector(".text-4");
+  span1.innerHTML = "Nome do Aluno:" + " " + nomeAluno;
 });
