@@ -121,7 +121,18 @@
 .caixa-info {
   display: none;
   background: lightgray;
+  border: 2px solid lightslategray;
+  padding: 6px;
+  margin-bottom: 40px;
 }
 .text-info {
   display: block;
+  color: green;
+  padding: 4px;
+  font-size: 1.3rem;
 }
+.cor {
+  color: black;
+  font-size: 1.1rem;
+}
+/* table */

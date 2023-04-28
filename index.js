@@ -126,5 +126,9 @@ b10.addEventListener("click", function () {
   let span2 = document.querySelector(".text-2");
   let span3 = document.querySelector(".text-3");
   let span4 = document.querySelector(".text-4");
-  span1.innerHTML = "Nome do Aluno:" + " " + nomeAluno;
+  span1.innerHTML += nomeAluno;
+  span2.innerHTML += nomeEscola;
+  span3.innerHTML += nomeTurma;
+  span4.innerHTML += anoLetivo;
+  //
 });
