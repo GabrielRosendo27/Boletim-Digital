@@ -36,31 +36,21 @@ b1.addEventListener("click", function () {
   let arteNota = document.getElementById("arte-nota").value;
   let arteFalta = document.getElementById("arte-falta").value;
   arte.style.display = "none";
-  biologia.style.display = "grid";
-  console.log(arteNota);
+  ciencias.style.display = "grid";
 });
 
 // --
 const b2 = document.querySelector(".b2");
 b2.addEventListener("click", function () {
   materias();
-  const biologiaNota = document.getElementById("biologia-nota").value;
-  const biologiaFalta = document.getElementById("biologia-falta").value;
-  biologia.style.display = "none";
-  filosofia.style.display = "grid";
+  const cienciasNota = document.getElementById("ciencias-nota").value;
+  const cienciasFalta = document.getElementById("ciencias-falta").value;
+  ciencias.style.display = "none";
+  geografia.style.display = "grid";
 });
 // --
 const b3 = document.querySelector(".b3");
 b3.addEventListener("click", function () {
-  materias();
-  const filosofiaNota = document.getElementById("filosofia-nota").value;
-  const filosofiaFalta = document.getElementById("filosofia-falta").value;
-  filosofia.style.display = "none";
-  geografia.style.display = "grid";
-});
-// --
-const b4 = document.querySelector(".b4");
-b4.addEventListener("click", function () {
   materias();
   const geografiaNota = document.getElementById("geografia-nota").value;
   const geografiaFalta = document.getElementById("geografia-falta").value;
@@ -68,8 +58,8 @@ b4.addEventListener("click", function () {
   historia.style.display = "grid";
 });
 // --
-const b5 = document.querySelector(".b5");
-b5.addEventListener("click", function () {
+const b4 = document.querySelector(".b4");
+b4.addEventListener("click", function () {
   materias();
   const historiaNota = document.getElementById("historia-nota").value;
   const historiaFalta = document.getElementById("historia-falta").value;
@@ -77,8 +67,8 @@ b5.addEventListener("click", function () {
   ingles.style.display = "grid";
 });
 // --
-const b6 = document.querySelector(".b6");
-b6.addEventListener("click", function () {
+const b5 = document.querySelector(".b5");
+b5.addEventListener("click", function () {
   materias();
   const inglesNota = document.getElementById("ingles-nota").value;
   const inglesFalta = document.getElementById("ingles-falta").value;
@@ -86,39 +76,22 @@ b6.addEventListener("click", function () {
   portugues.style.display = "grid";
 });
 // --
-const b7 = document.querySelector(".b7");
-b7.addEventListener("click", function () {
+const b6 = document.querySelector(".b6");
+b6.addEventListener("click", function () {
   materias();
   const portuguesNota = document.getElementById("portugues-nota").value;
-  const PortuguesFalta = document.getElementById("portugues-falta").value;
+  const portuguesFalta = document.getElementById("portugues-falta").value;
   portugues.style.display = "none";
   matematica.style.display = "grid";
 });
 // --
-const b8 = document.querySelector(".b8");
-b8.addEventListener("click", function () {
+// --
+const b7 = document.querySelector(".b7");
+b7.addEventListener("click", function () {
   materias();
   const matematicaNota = document.getElementById("matematica-nota").value;
   const matematicaFalta = document.getElementById("matematica-falta").value;
   matematica.style.display = "none";
-  quimica.style.display = "grid";
-});
-// --
-const b9 = document.querySelector(".b9");
-b9.addEventListener("click", function () {
-  materias();
-  const quimicaNota = document.getElementById("quimica-nota").value;
-  const quimicaFalta = document.getElementById("quimica-falta").value;
-  quimica.style.display = "none";
-  sociologia.style.display = "grid";
-});
-// --
-const b10 = document.querySelector(".b10");
-b10.addEventListener("click", function () {
-  materias();
-  const sociologiaNota = document.getElementById("sociologia-nota").value;
-  const sociologiaFalta = document.getElementById("sociologia-falta").value;
-  sociologia.style.display = "none";
   info2.style.display = "none";
   const caixaInfo = document.querySelector(".caixa-info");
   caixaInfo.style.display = "block";
